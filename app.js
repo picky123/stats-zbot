@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.login('NDQzNzc5NjUwODk2Nzg5NTA0.DdSVhg.v4ALCCw3s1xRwraZBtYjZ-ePzIE');
 
 client.on('ready', () => {
-  client.user.setGame('💀 Stats-Servers.', 'https://www.twitch.tv/streamerhouse')
+  client.user.setGame('Stats-Servers.', 'https://www.twitch.tv/streamerhouse')
 })
 
 client.on('guildMemberAdd', member => {
