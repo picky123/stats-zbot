@@ -19,3 +19,11 @@ client.on('guildMemberAdd', member => {
 client.on('guildMemberRemove', member => {
     member.guild.channels.get('443419618724413452').setName(`Members: ${member.guild.memberCount}`);
 });
+
+client.on('guildMemberAdd', member => {
+    member.guild.channels.get('444944051544915978').setName(`Member Count: ${member.guild.memberCount}`);
+});
+
+client.on('guildMemberRemove', member => {
+    member.guild.channels.get('444944051544915978').setName(`Member Count: ${member.guild.memberCount}`);
+});
