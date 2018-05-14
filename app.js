@@ -6,14 +6,6 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on('guildMemberAdd', member => {
-    member.guild.channels.get('443419618724413452').setName(`Members: ${member.guild.memberCount}`);
-});
-
-client.on('guildMemberRemove', member => {
-    member.guild.channels.get('443419618724413452').setName(`Members: ${member.guild.memberCount}`);
-});
-
 client.login('NDQzNzc5NjUwODk2Nzg5NTA0.DdSVhg.v4ALCCw3s1xRwraZBtYjZ-ePzIE');
 
 client.on('ready', () => {
@@ -21,9 +13,9 @@ client.on('ready', () => {
 })
 
 client.on('guildMemberAdd', member => {
-    member.guild.channels.get('444944051544915978').setName(`Member Count: ${member.guild.memberCount}`);
+    member.guild.channels.get('443419618724413452').setName(`🔰 Total-Members: ${member.guild.memberCount}`);
 });
 
 client.on('guildMemberRemove', member => {
-    member.guild.channels.get('444944051544915978').setName(`Member Count: ${member.guild.memberCount}`);
+    member.guild.channels.get('443419618724413452').setName(`🔰 Total-Members: ${member.guild.memberCount}`);
 });
